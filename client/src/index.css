@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+body{
+  /* background-color: #f2f2f2; */
+  background-color: #e6e6ff;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.animatedButton{
+  animation-duration: 10000ms;
+  /* color: red; */
+}
