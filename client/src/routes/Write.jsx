@@ -1,6 +1,6 @@
 import React from "react";
 import { useUser } from "@clerk/clerk-react";
-import Editor from "../components/Editor";
+import { MinimalTiptap } from "@/components/ui/shadcn-io/minimal-tiptap";
 const Write = () => {
   const { isLoaded, isSignedIn } = useUser();
 
@@ -29,7 +29,7 @@ const Write = () => {
           </select>
         </div>
         <textarea name="desc" placeholder="A Short Description" id="" />
-        <Editor />
+    <MinimalTiptap className="bg-white"/>
       </form>
     </div>
   );
